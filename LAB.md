@@ -15,8 +15,8 @@ In this project, you will be tasked with implementing a "CMS" or Content Managem
 * Fork the repository and install the react application on your local environment
 * Develop and test locally
   * You will need to rename the `env` file to `.env` 
-  * Add a `.gitignore` file (allow .env files in it,  unlike usual!)
-* Deploy to AWS
+  * Add a `.gitignore` file so you don't check-in your node modules.
+  * Remove .env from your .gitignore. AWS will need this do your build properly
 * Fix the application (it's got a few bugs for you to trace down before it will work properly)
 * Document, with JSDoc every method in the components as well as the actions and reducers
 * Draw on a whiteboard a complete UML diagram for the code
