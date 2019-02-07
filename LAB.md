@@ -12,8 +12,8 @@ In this project, you will be tasked with implementing a "CMS" or Content Managem
 * Add a new record to the model
 
 ## Requirements
-* Fork the repository and install the react application on your local environment
-* Develop and test locally
+* Fork the repository, unzip, and install the react application on your local environment
+* Develop and test locally instead of at Code Sandbox
   * You will need to rename the `env` file to `.env` 
   * Add a `.gitignore` file so you don't check-in your node modules.
   * Remove .env from your .gitignore. AWS will need this do your build properly
@@ -41,3 +41,6 @@ In this project, you will be tasked with implementing a "CMS" or Content Managem
 * Deploy your front-end (the React application) to AWS
   * Preferably, use the automated deployment process to connect a Cloud Formation stack
 * Complete the README.md with complete documentation, UML, and user notes.
+
+## Strech Goals!
+This application started out as a monolithic, standard React App. Take a look at the [Original React CMS](https://codesandbox.io/s/72qwmw6qnx) and create an image and notes that map out the original application was transformed into the Redux version that you worked on for this lab.
