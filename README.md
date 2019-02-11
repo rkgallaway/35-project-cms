@@ -6,26 +6,31 @@
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+
+[![Build Status](https://www.travis-ci.com/rkgallaway/35-project-cms.svg?branch=master)](https://www.travis-ci.com/rkgallaway/35-project-cms)
+* [repo](https://github.com/rkgallaway/35-project-cms)
+* [travis](https://www.travis-ci.com/rkgallaway/35-project-cms)
+* [deployed API server](https://javascript-401-api.herokuapp.com)
+* [front-end](http://xyz.com) -provided when complete
 
 ### Modules
 #### `modulename.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
+## Requirements
+* Fork the repository, unzip, and install the react application on your local environment
+* Develop and test locally instead of at Code Sandbox
+  * You will need to rename the `env` file to `.env` 
+  * Add a `.gitignore` file so you don't check-in your node modules.
+  * Remove .env from your .gitignore. AWS will need this do your build properly
+* Fix the application (it's got a few bugs for you to trace down before it will work properly)
+* Document, with JSDoc every method in the components as well as the actions and reducers
+* Draw on a whiteboard a complete UML diagram for the code
+* Draw on a whiteboard a data-flow diagram for each user workflow (list models, list records, etc)
+* Write tests to assert that things are working as expected
+* Apply some styling!
+  * Make this easy and intuitive for a user to use
+  * The User Interface and Experience are completely up to you
 #### Running the app
 * `npm start`
 * Endpoint: `/foo/bar/`
@@ -39,4 +44,4 @@ Usage Notes or examples
 * What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+![Project CMS UML](./assets/uml.jpg)
