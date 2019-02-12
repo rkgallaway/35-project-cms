@@ -12,6 +12,7 @@
 * [travis](https://www.travis-ci.com/rkgallaway/35-project-cms)
 * [deployed API server](https://javascript-401-api.herokuapp.com)
 * [front-end](http://xyz.com) -provided when complete
+* [solution code](https://codesandbox.io/s/3v8y6vv9o1)
 
 ### Modules
 #### `modulename.js`
